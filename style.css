@@ -1,0 +1,110 @@
+#home {
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    max-width: 100%;
+    width: 100%;
+}
+
+.top-btn {
+    display: inline-block;
+    padding: 8px 10px;
+    border: 2px solid white;
+    border-radius: 30px;
+    color: white;
+    font-weight: 500;
+    transition: ease .50s;
+    text-decoration: none;
+}
+
+.top-btn:hover {
+    background: rgba(240, 91, 16, 0.818);
+    font-weight: 500;
+    color: aliceblue;
+    line-height: 24px;
+    border-radius: 30px;
+    transform: scale(1.1);
+}
+
+
+#about .btn {
+    color: white;
+    background: rgba(240, 91, 16, 0.818);
+    padding: 10px 40px;
+    font-weight: 500;
+    line-height: 24px;
+    border-radius: 30px;
+    transition: ease .40s;
+}
+
+
+#about .btn:hover {
+    background: rgba(240, 91, 16, 0.818);
+    padding: 10px 40px;
+    font-weight: 500;
+    line-height: 24px;
+    border-radius: 30px;
+    transform: scale(1.1);
+}
+
+#skills h1 {
+    color: rgba(240, 91, 16, 0.818);
+}
+
+#social .btn {
+    font-weight: 500;
+    line-height: 24px;
+    border-radius: 30px;
+    transition: ease .40s;
+}
+
+#social .btn:hover {
+    font-weight: 500;
+    line-height: 24px;
+    border-radius: 30px;
+    transform: scale(1.1);
+}
+
+#social h1 {
+    color: rgba(240, 91, 16, 0.818);
+}
+
+#contact .btn {
+    font-weight: 500;
+    line-height: 24px;
+    border-radius: 30px;
+    transition: ease .40s;
+}
+
+#contact .btn:hover {
+    font-weight: 500;
+    line-height: 24px;
+    border-radius: 30px;
+    transform: scale(1.1);
+}
+
+#contact label {
+    font-weight: bold;
+}
+
+#contact h1 {
+    color: rgba(240, 91, 16, 0.818);
+}
+
+@media (max-width: 768px) {
+   
+    body {
+        font-size: 14px;
+    }
+
+    .navbar-collapse {
+        display:list-item;
+    }
+
+    .social a i {
+        font-size: 20px;
+        padding: 10px;
+    }
+}
+
